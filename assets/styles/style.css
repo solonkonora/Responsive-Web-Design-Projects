@@ -39,7 +39,7 @@ body {
 }
 
 .header {
-  background-image: "url(../images/couple.jpg)";
+  background-image: "scr = url(../images/couple.jpg)";
 }
 
 .header,
@@ -163,7 +163,7 @@ body {
 }
 
 .invitation {
-  background-image:"url(../images/flowers.jpg)";
+  background-image: "../images/flowers.jpg";
 }
 
 .invitation .invite {
