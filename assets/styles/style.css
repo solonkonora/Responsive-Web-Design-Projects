@@ -163,7 +163,7 @@ body {
 }
 
 .invitation {
-  background-image: "url(../images/flowers.jpg)";
+  background-image:"url(../images/flowers.jpg)";
 }
 
 .invitation .invite {
@@ -278,6 +278,6 @@ body {
   text-align: center;
 }
 
-.footer .wthree{
+.footer .wthree {
   color: #fff;
 }
