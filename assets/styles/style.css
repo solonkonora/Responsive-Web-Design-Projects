@@ -19,12 +19,18 @@ body{
   opacity: 0.5;
 }
 
-.navbar .nav_items a {
-  width: 25%;
+.navbar .nav_items a{
+  width: 25px;
   color: #040404;
   text-decoration: none;
   font-size: 20px;
   padding:8rem;
+}
+
+.navbar .nav_items a:hover {
+  background-color: black;
+  color: white;
+  transition: background-color 0.2s ease;
 }
 
 @media screen and (max-width: 768px) {
@@ -32,6 +38,7 @@ body{
     padding: 2rem;
   }
 }
+
 
 
 .header{
