@@ -23,7 +23,6 @@ body {
   text-decoration: none;
   font-size: 15px;
   padding: 10px 60px 10px 80px;
-  /* padding-left: 80px; */
 }
 
 .navbar .nav-items a:hover {
@@ -79,7 +78,7 @@ body {
     color: white;
     display: block;
   }
-  
+
   .header h3 {
     font-size: 35px;
     color: white;
