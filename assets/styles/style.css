@@ -79,13 +79,13 @@ body {
     color: white;
     display: block;
   }
-    
+  
   .header h3 {
     font-size: 35px;
     color: white;
     display: block;
   }
-  
+
   .header h2 {
     font-size: 30px;
     color: white;
@@ -155,26 +155,25 @@ body {
   background-color: black;
   color: white;
   text-decoration: none;
-  border-radius: 5px; 
+  border-radius: 5px;
 }
-  
+
 .details:hover {
   background-color: gray;
-  color:#000000 ;
+  color: #000;
 }
-  
+
 .invitation {
-  background-image: url(../images/flowers.jpg);
+  background-image: "url(../images/flowers.jpg)";
 }
 
 .invitation .invite {
   font-size: 70px;
   color: white;
 }
-  
+
 .invitation h6 {
   font-size: 30px;
-  /* padding: 50px; */
   color: white;
 }
 
@@ -226,7 +225,7 @@ body {
   background-color: #f3acac;
   margin-top: -30px;
   height: 300px;
- }
+}
 
 .rsvp-1 button {
   margin: auto;
@@ -238,19 +237,19 @@ body {
   background-color: #f26d6d;
   color: white;
   text-decoration: none;
-  border-radius: 5px; 
+  border-radius: 5px;
   border-style: none;
   margin-bottom: -17px;
 }
-  
+
 .rsvp-1 button:hover {
   background-color: gray;
-  color:#080808 ;
+  color: #080808;
 }
 
-.rsvp-1 h1{
- text-align: center;
- padding-top: 60px;
+.rsvp-1 h1 {
+  text-align: center;
+  padding-top: 60px;
 }
 
 .rsvp-1 .response {
@@ -263,24 +262,23 @@ body {
 @media screen and (max-width: 768px) {
   .rsvp-1 {
     background-color: #f3acac;
-    /* margin-top: -30px; */
     height: 650px;
   }
-    
+
   .rsvp-1 h1 {
     text-align: center;
-    color: #000000;
+    color: #000;
   }
 }
 
 .footer {
-  color: #fff!important;
-  background-color: #000!important;
-  padding-top: 16px!important;
-  padding-bottom: 16px!important;
-  text-align: center!important;
+  color: #fff;
+  background-color: #000;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: center;
 }
 
 .footer .wthree{
-  color: #ffffff;
+  color: #fff;
 }
