@@ -17,7 +17,7 @@ body{
   opacity: 0.5;
 }
 
-.navbar .nav_items a{
+.navbar .nav-items a{
   width: 25%;
   color: #040404;
   text-decoration: none;
@@ -26,7 +26,7 @@ body{
   /* padding-left: 80px; */
 }
 
-.navbar .nav_items a:hover {
+.navbar .nav-items a:hover {
   background-color: black;
   color: white;
   opacity: none;
@@ -34,7 +34,7 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-  .navbar .nav_items a {
+  .navbar .nav-items a {
     padding: 2rem;
   }
 }
@@ -97,11 +97,11 @@ body{
 
 }
 
-.About{
+.about{
   background-color: #f4d3ec;
 }
 
-.About .about-couples .couples-name,
+.about .about-couples .couples-name,
 .location .venue{
   color: #808080;
   justify-content: center;
@@ -121,7 +121,7 @@ body{
   border-radius: 2%;
 }
 
-.About .about-couples p{
+.about .about-couples p{
   margin: auto;
   padding: 15px 150px;
   justify-content: center;
@@ -130,7 +130,7 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-.About .about-couples p{
+.about .about-couples p{
   font-style: italic;
   margin: auto;
   padding: 30px 15px;
