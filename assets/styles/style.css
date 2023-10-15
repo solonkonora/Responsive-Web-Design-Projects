@@ -6,30 +6,30 @@ body{
 }
 
 .navbar {
-  display: flex;
   width: 100%;
+  display: flex;
   justify-content: space-between;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   position: fixed;
   bottom: 0;
-  left: 0;
-  right: 0;
   background: #fbf9f9;
   opacity: 0.5;
 }
 
 .navbar .nav_items a{
-  width: 25px;
+  width: 25%;
   color: #040404;
   text-decoration: none;
-  font-size: 20px;
-  padding:8rem;
+  font-size: 15px;
+  /* padding:10px; */
+  
 }
 
 .navbar .nav_items a:hover {
   background-color: black;
   color: white;
+  opacity: none;
   transition: background-color 0.2s ease;
 }
 
@@ -123,16 +123,11 @@ body{
 
 .About .about-couples p{
   margin: auto;
-  padding: 30px 150px;
+  padding: 15px 150px;
   justify-content: center;
   justify-self: center;
   line-height: 30px;
 }
-
-/* .About .about-couples a{
-  justify-content: center;
-  justify-self: center;
-} */
 
 @media screen and (max-width: 768px) {
 .About .about-couples p{
@@ -156,14 +151,16 @@ body{
 }
 
 .details {
-    margin: 0 auto;
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: black;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.2s ease;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  padding: 24px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  
 }
   
 .details:hover {
