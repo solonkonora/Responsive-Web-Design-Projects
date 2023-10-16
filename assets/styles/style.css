@@ -45,6 +45,12 @@ body {
 .about-couples img,
 .wedding-info .location img {
   opacity: 0.6;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  width: 1050px;
+  height: 600px;
+  border-radius: 2%;
 }
 
 .header,
@@ -111,7 +117,7 @@ body {
   height: 20vh;
 }
 
-.about-couples img,
+/* .about-couples img,
 .wedding-info .location img {
   display: block;
   margin: 0 auto;
@@ -119,7 +125,7 @@ body {
   width: 1050px;
   height: 600px;
   border-radius: 2%;
-}
+} */
 
 .about .about-couples p {
   margin: auto;
