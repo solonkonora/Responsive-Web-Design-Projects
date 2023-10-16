@@ -111,8 +111,8 @@ body {
   height: 20vh;
 }
 
-.about-couples img,
-.wedding-info .location img {
+.wedding-info .location img, 
+.about-couples img{
   display: block;
   margin: 0 auto;
   padding: 10px;
