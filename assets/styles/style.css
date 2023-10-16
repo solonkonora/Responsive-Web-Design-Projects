@@ -38,10 +38,11 @@ body {
 }
 
 .header {
-  background-image: url(../images/couple.jpg);
+  /* background-image: url(../images/couple.jpg); */
+  opacity: 0.6;
+  background-image: url("../images/couple.jpg");
 }
 
-.header,
 .about-couples img,
 .wedding-info .location img {
   opacity: 0.6;
@@ -174,7 +175,7 @@ body {
 }
 
 .invitation {
-  background-image: url(../images/flowers.jpg);
+  background-image: url("../images/flowers.jpg");
   filter: grayscale(50%);
 }
 
